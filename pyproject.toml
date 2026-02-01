@@ -1,0 +1,20 @@
+[project]
+name = "localprompt"
+version = "0.1.0"
+description = "A Python client library for Prompt Studio API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yarcowang/localprompt.py"
+Repository = "git@github.com-yarcowang:yarcowang/localprompt.py.git"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
